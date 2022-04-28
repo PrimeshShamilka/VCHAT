@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".BleActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Bluetooth Scanners!" />
+
+    <Button
+        android:id="@+id/StartScanButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:text="Scan" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Stop Scanning"
+            android:id="@+id/StopScanButton"
+            android:layout_marginTop="40dp"/>
+
+       <ListView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingTop="100dp"
+           android:id="@+id/ble_list"
+           tools:listitem="@layout/ble_item"
+           />
+
+    </RelativeLayout>

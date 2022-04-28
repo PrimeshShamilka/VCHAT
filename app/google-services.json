@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "787983473122",
+    "firebase_url": "https://flashmos-474be-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flashmos-474be",
+    "storage_bucket": "flashmos-474be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787983473122:android:5cbe9493b4b13c621101bb",
+        "android_client_info": {
+          "package_name": "com.example.flashmos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787983473122-6sfune74lqu4lpk68qv8cms4pro6gkbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flashmos",
+            "certificate_hash": "3cbb0feed294f30df48b2333f78f65319c531f0f"
+          }
+        },
+        {
+          "client_id": "787983473122-289q6f1ipi7fmvdiugbakhmpgflel05m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA12CIN811WIuhrwkYz-VLaNy-3g4hS-Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787983473122-289q6f1ipi7fmvdiugbakhmpgflel05m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
